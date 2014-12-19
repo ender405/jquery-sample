@@ -13,5 +13,6 @@ Good luck!
 http://placekitten.com/350/150
 
 */
-
-$(".article-item").children("img").attr("src","http://placekitten.com/350/150")
+$(function() { 
+	$(".article-item").children("img").attr("src","http://placekitten.com/350/150");
+})
