@@ -10,4 +10,8 @@ Here's a URL for a picture of a puppy: http://placepuppy.it/350/150
 
 Good luck!
 
+http://placekitten.com/350/150
+
 */
+
+$(".article-item").children("img").attr("src","http://placekitten.com/350/150")
